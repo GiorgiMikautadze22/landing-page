@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@400&family=Manrope:wght@400;700&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope";
+}
+
+:root {
+  --Darkpurple: #24053e;
+  --jade: #44ffa1;
+  --gray: #584d62;
+  --GhostWhite: #fcf8ff;
+  --white: #ffffff;
+}
+
+header {
+  background-color: var(--Darkpurple);
+  padding: 32px 16px 0px 16px;
+}
+
+p {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "manrope";
+}
+
+.underline {
+  background-color: var(--jade);
+  width: 124px;
+  height: 3px;
+  margin-top: 3px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-family: "Fraunces";
+  font-size: 50px;
+  font-weight: 100;
+  color: var(--white);
+  margin-top: 65px;
+  text-align: center;
+}
+
+.underline1 {
+  background-color: var(--jade);
+  height: 3px;
+  width: 180px;
+  margin-left: 42%;
+}
+
+button {
+  background-color: var(--jade);
+  width: 133px;
+  height: 55px;
+  font-size: 16px;
+  color: var(--Darkpurple);
+  font-weight: 700;
+  margin-top: 51px;
+  margin-bottom: 106px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 100%px;
+  height: 50px;
+  background-color: var(--Darkpurple);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.phone {
+  position: absolute;
+  top: 430px;
+  left: 10%;
+}
+
+.smallcircle {
+  width: 48px;
+  height: 46px;
+  border: 1px solid #584d62;
+  border-radius: 50%;
+  font-family: "Fraunces";
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--Darkpurple);
+  text-align: center;
+  margin: auto;
+  margin-top: 155px;
+}
+
+h3 {
+  font-family: "Fraunces";
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 24px;
+  color: var(--Darkpurple);
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--gray);
+  text-align: center;
+  margin-top: 16px;
+  padding: 0px 16px 0px 16px;
+}
+
+.mt {
+  margin-top: 40px;
+}
+
+.person {
+  margin-top: 172px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 47px;
+}
