@@ -284,6 +284,11 @@ h3 {
     margin-left: 32px;
   }
 
+  .befirst .description {
+    text-align: start;
+    margin-left: 32px;
+  }
+
   .befirst p {
     font-size: 18px;
     display: flex;
